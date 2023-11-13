@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ODM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel = "stylesheet" href= "/espe/css/estilos.css">
+    <link rel = "stylesheet" href= "/espe/css/formulario.css">
+
+</head>
+<body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <header>
+            <div class="contenido-header">
+                <div class="logo">
+                    <h1>Omnibus de Mexico</h1>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li>
+                            <a href="#Modelos" onclick="seleccionar()">
+                                <i class="fa-solid fa-road"></i>
+                                <span>Modelos</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#Viajes" onclick="seleccionar()">
+                                <i class="fa-solid fa-road"></i>
+                                <span>Viajes</span>
+                            </a></li>
+                        <li>
+                            <a href="#Destinos" onclick="seleccionar()">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>Destinos</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#Info" onclick="seleccionar()">
+                                <i class="fa-solid fa-info"></i>
+                                <span>Informacion</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contacto" onclick="seleccionar()">
+                                <i class="fa-solid fa-address-book"></i>
+                                <span>Contacto</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="social">
+                    <a href="tel:     ">
+                        <i class="fa-solid fa-phone"></i>+9999999
+                    </a>
+                    <a href="https://www.facebook.com/OmnibusdeMexicoOficial/"> <i class="fa-brands fa-facebook fa-beat-fade"></i></a>
+                    <a href="https://twitter.com/Omnibus_oficial"><i class="fa-brands fa-twitter fa-beat-fade"></i></a> 
+                    
+                </div>
+                <div class="nav-responsive" id="bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </header>
+        <!-- Carrusel -->
+        <div class="carrusel">
+            <div class="gallery js-flickity" data-flickity-options='{ "wrapAround":true, "pageDots": false, "autoPlay": true}'>
+                <div class="gallery-cell" >
+                    <img src="/img/ODM 9700 S.jpeg" alt="">
+                </div>
+
+                <div class="gallery-cell" >
+                    <img src="/img/ODM 9800.jpg" alt="">
+                </div>
+
+                <div class="gallery-cell">
+                    <img src="/img/ODM i8.jpg" alt="">
+                </div>
+
+                <div class="gallery-cell">
+                    <img src="/img/ODM 9800 DD.jpg" alt="">
+                </div>
+
+                <div class="gallery-cell">
+                    <img src="/img/TAP AYATS.jpeg" alt="">
+                </div>
+
+                <div class="gallery-cell" >
+                    <img src="/img/Noreste 9800.jpg" alt="">
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <!-- SECCION SABORES -->
+    <section id="Modelos">
+        <h2>Modelos</h2>
+        <div class="fila">
+            <div class="item">
+                <div class="icono">
+                    <img src="/img/ODM 9800 2.1.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>VOLVO 9800 Euro 5 & Euro 6 </h3>
+                    <p> </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/sabor2.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Irizar I8</h3>
+                    <p> </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                    <img src="img/sabor3.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h3>Volvo 9800 DD</h3>
+                    <p>.</p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- SECCION PLATOS -->
+    <section id="Viajes">
+        <h2>Viajes</h2>
+
+        <div class="fila">
+            <div class="item">
+                <img src="img/ts1.png" alt="">
+                <p>Viaje a Torreon</p>
+            </div>
+            <div class="item">
+                <img src="img/ts3.png" alt="">
+                <p>Viaje a CDMX </p>
+            </div>
+            <div class="item">
+                <img src="img/ts2.png" alt="">
+                <p>Viaje a Tampico</p>
+            </div>
+        </div>
+       
+    </section>
+
+    <!-- SECCION BLOG -->
+    <section id="Destinos">
+        <h2>Destinos Principales</h2>
+        <div class="galeria-Destinos js-flickity" data-flickity-options='{ "wrapAround":true, "pageDots": true}'>
+            <div class="gallery-cell" >
+                <div class="item">
+                    <div class="foto">
+                        <img src="img/maes1.jpeg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Torreon</h3>
+                        <p>Torreón es una ciudad mexicana del noreste del país, situada en el estado de Coahuila, siendo la cabecera del municipio homónimo. Forma parte de la zona metropolitana de La Laguna.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-cell" >
+                <div class="item">
+                    <div class="foto">
+                        <img src="img/maes2.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>CDMX</h3>
+                        <p>Quien elige a la Ciudad de México como su destino de viaje disfrutará de raíces culturales llenas de magia, costumbres y grandes tradiciones en una urbe que contrasta una metrópoli con espacios verdes llenos de vida, asi que ven y disfruta </p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-cell" >
+                <div class="item">
+                    <div class="foto">
+                        <img src="img/maes3.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Tampico</h3>
+                        <p>Tampico, Tamaulipas, es una ciudad que lo tiene todo: sorprendentes edificios y monumentos, hermosos cuerpos de agua y mucho más. ¡Descubre qué hacer en este encantador destino!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+
+    <!-- SECCION CONTACTO Y PIE DE PAGINA -->
+    <section id="contacto">
+        <div class="fila">
+            <div class="col">
+                <a href="https://www.gifsanimados.org/cat-autobuses-425.htm"><img src="https://www.gifsanimados.org/data/media/425/autobus-imagen-animada-0001.gif" border="0" alt="autobus-imagen-animada-0001" /></a>
+            </div>
+            <div class="col">
+                <h3>Oferta Educativa</h3>
+                <a href="#inicio">Inicio</a>
+                <a href="#Modelos">Modelos</a>
+                <a href="#Viajes">Viajes</a>
+                <a href="#Destinos">Destinos</a>
+            </div>
+            <div class="col">
+                <h3>Empresas Hermanas</h3>
+                <a href="#">TAP</a>
+                <a href="#">Noreste</a>
+                <a href="#">Exprebus</a>
+            </div>
+            <div class="col">
+                <h3>Social Media</h3>
+                <div class="media">
+                    <i class="fa-brands fa-facebook fa-beat-fade"></i> <a href="https://www.facebook.com/OmnibusdeMexicoOficial/">Facebook</a>
+                </div>
+                <div class="media">
+                    <i class="fa-brands fa-twitter fa-beat-fade"></i> <a href="https://twitter.com/Omnibus_oficial ">Twitter</a>
+                </div>
+            </div>
+            <div class="col">
+                <h3>Contacto</h3>
+                
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
